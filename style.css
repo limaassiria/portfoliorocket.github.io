@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: grey;
+    background-color: #22212C;
 }
 
 .grid {
@@ -31,3 +31,181 @@ a {
     text-decoration: none;
     color: black
 }
+
+.profile-card {
+    box-sizing: border-box;
+    padding: 40px 40px 40px 40px;
+    margin: 10px;
+    border: transparent 2px;
+    background-color: #302F3D;
+    border-radius: 20px;
+}
+
+.profile-image {
+    border-radius: 100%;
+    border: 2.5px solid green;
+    max-width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-name {
+    color: #837E9F;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.profession {
+    color: #837E9F;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.contact-card {
+    box-sizing: border-box;
+    padding: 20px 40px 20px 40px;
+    margin: 10px;
+    border: transparent 2px;
+    background-color: #302F3D;
+    border-radius: 20px;
+}
+
+.contact-card ul li {
+    color: #837E9F;
+    padding: 0.5rem 0; 
+    font-size: 11px;
+    text-align: left;
+    font-weight: 400;
+}
+
+.contact-card ul i {
+    padding-right: 1.5rem; 
+    font-size: 15px;
+    color: #837E9F;
+    display: block;
+    width: 10px;
+    float: left;
+}
+
+.skills-card {
+    box-sizing: border-box;
+    padding: 20px 40px 40px 20px;
+    margin: 10px;
+    border: transparent 2px;
+    background-color: #302F3D;
+    border-radius: 20px;
+}
+
+.left-title {
+    color: #837E9F;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+
+}
+
+.skills-content {
+    text-align:center;
+    font-weight: 700;
+    padding-top: 25px;
+}
+
+.skills-content ul li {
+    display: inline-block;
+    font-size: 10px;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    width: 80px;
+    margin: 1px;
+    background-color: #CB92B1;
+    border-radius: 20px;
+}
+
+.education-card {
+    box-sizing: border-box;
+    padding: 20px 20px 20px 20px;
+    margin: 10px;
+    border: transparent 2px;
+    background-color: #302F3D;
+    border-radius: 20px;
+}
+
+.education-content ul li {
+    padding: 20px 10px 0px 30px;
+    list-style:disc;
+    font-size: 15px;
+    color: #837E9F;
+    list-style-position:inside;
+}
+
+.education-content ul li p {
+    padding-left: 20px;
+}
+
+.education-content ul li p b {
+    font-weight: 700;
+}
+
+
+.projects-card {
+    box-sizing: border-box;
+    padding: 50px 50px 50px 50px;
+    margin: auto;
+    border: transparent 2px;
+    background-color: green;
+    color: white;
+}
+
+
+
+
+/* fiz até aqui */
+
+
+.onix-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.onix-left-card {
+    box-sizing: border-box;
+    padding: 50px 50px 50px 50px;
+    margin: auto;
+    border: transparent 2px;
+    background-color: red;
+    color: white;
+}
+
+.onix-right-card {
+    box-sizing: border-box;
+    padding: 50px 50px 50px 50px;
+    margin: auto;
+    border: transparent 2px;
+    background-color: blue;
+    color: white; 
+}
+
+.posts-card {
+    box-sizing: border-box;
+    padding: 50px 50px 50px 50px;
+    margin: auto;
+    border: transparent 2px;
+    background-color: blueviolet;
+    color: white;
+    display:inline-block;
+}
+
+.post-card {
+    box-sizing: border-box;
+    padding: 50px 50px 50px 50px;
+    margin: auto;
+    border: transparent 2px;
+    background-color: purple;
+    color: white;
+    display: inline-block;
+} 

@@ -145,9 +145,6 @@ a {
     list-style-position: outside;
     list-style-type:disc;
     padding-bottom: 15px;
-}
-
-.education-content ul li {
     font-weight: 400;
 }
 
@@ -330,10 +327,69 @@ a {
     padding-bottom: 10px;
 }
 
+/* configurações de responsividade (mobile) */
 
+@media screen and (max-width:780px) {
+    .onix-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
 
+@media screen and (max-width:780px) {
+    .left-section {
+        grid-column: span 3;
+    }
+    
+    .right-section {
+        grid-column: span 4;
+    } 
+}
 
+@media screen and (max-width:1200px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
 
+@media screen and (max-width:390px) {
+    .grid {
+        width: 100%;
+        margin: 0 auto;
+    }
 
+    .profile-name	{
+        font-size: 20px;
+    }
 
-/* fiz até aqui */
+    .profession {
+        font-size: 18px;
+    }
+
+    .left-title {
+        font-size: 18px;
+    }
+
+    .right-title {
+        font-size: 18px;
+    }
+
+    .contact-card ul li,
+    .education-content ul li {
+        font-size: 12px;
+    }
+
+    .contact-card ul li i {
+        padding-right: 1rem; 
+        font-size: 12px;
+    }
+
+    .skills-content ul li  {
+        font-size: 12px;
+    }
+
+    .project-content
+    .post-card-content  {
+        font-size: 16px;
+        line-height: 1.5rem;
+    }
+}
